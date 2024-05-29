@@ -165,6 +165,10 @@ nav .fa-bars {
 }
 
 @media screen and (max-width: 700px) {
+  .main-course {
+    padding: 0px 30px;
+  }
+
   .navlists ul li {
     display: block;
     padding: 30px;
