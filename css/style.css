@@ -328,6 +328,39 @@ nav .fa-bars {
   color: #a5b452;
 }
 
+/* Question and Answer */
+.QandA {
+  text-align: center;
+  padding-top: 50px;
+  margin: auto;
+  width: 100%;
+}
+
+.QandA-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.QandA-row > div {
+  width: 30%;
+}
+
+.QandA-col {
+  padding: 20px 25px;
+}
+
+.QandA-col h3 {
+  margin-bottom: 10px;
+}
+
+.QandA-col p {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: lighter;
+}
+
 @media screen and (max-width: 700px) {
   .main-course {
     padding: 0px 30px;
