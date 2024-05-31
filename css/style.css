@@ -13,6 +13,7 @@
   top: 0;
   left: 0;
   z-index: 999;
+  box-shadow: 0 5px 15px rgba(165, 162, 82, 0.5);
 }
 
 nav {
@@ -275,6 +276,56 @@ nav .fa-bars {
 .layer:hover h3 {
   bottom: 45%;
   opacity: 1;
+}
+
+/* Testimonial */
+.testimonial {
+  width: 97%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.testimonial p {
+  padding: 10px;
+}
+
+.testimonial-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  padding: 10px 13px;
+  background: beige;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid #a5b452;
+}
+
+/* .testimonial-col:hover {
+} */
+
+.testimonial-col h3 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.testimonial-col img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 2px;
+  margin-top: 10px;
+  border: 2px solid #a5b452;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons .fa-star {
+  color: #a5b452;
 }
 
 @media screen and (max-width: 700px) {
