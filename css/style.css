@@ -59,9 +59,10 @@ nav a {
   font-size: 30px;
 }
 
-.active {
-  color: #a5b452;
-}
+/* .active {
+  border: 1px solid #a5b452;
+  padding: 8px;
+} */
 
 nav .fa-xmark,
 nav .fa-bars {
@@ -361,6 +362,142 @@ nav .fa-bars {
   font-weight: lighter;
 }
 
+/* Newsletter */
+.newsletter {
+  padding: 40px 80px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #a5b452;
+  background-position: 20% 30%;
+  background-repeat: no-repeat;
+}
+
+.newtext h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.newtext p {
+  font-size: 15px;
+  font-weight: 600;
+  color: beige;
+}
+
+.newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
+.form input {
+  width: 100%;
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+  font-size: 14px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  caret-color: #a5b452;
+}
+
+.form button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #fff;
+  color: #a5b452;
+  white-space: nowrap;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.form .btn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  transition: 0.2s;
+}
+
+/* Contact Us */
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col > div {
+  /* display: flex; */
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col .fa {
+  font-size: 28px;
+  margin: 10px;
+  margin-right: 14px;
+  color: #a5b452;
+}
+
+.contact-col div p {
+  padding: 0;
+}
+
+.contact-col div h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+  resize: none;
+  caret-color: #a5b452;
+  border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+  background: beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .social-icons i {
+  padding: 10px 15px;
+  color: #a5b452;
+}
+
+footer .social-icons .fa-brands {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 700px) {
   .main-course {
     padding: 0px 30px;
@@ -394,5 +531,9 @@ nav .fa-bars {
 
   .navlists ul {
     padding: 30px;
+  }
+
+  .contact {
+    display: none;
   }
 }
