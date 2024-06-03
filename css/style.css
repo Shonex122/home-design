@@ -462,19 +462,6 @@ nav .fa-bars {
   margin-bottom: 5px;
 }
 
-.contact-col .btn {
-  display: inline-block;
-  /* width: 50%; */
-  padding: 10px 15px;
-  border-radius: 10px;
-  color: #a5b452;
-  background-color: beige;
-  outline: 0;
-  border: 1px solid #a5b452;
-  cursor: pointer;
-  font-size: 12px;
-}
-
 .contact-col input,
 .contact-col textarea {
   width: 90%;
@@ -485,6 +472,24 @@ nav .fa-bars {
   resize: none;
   caret-color: #a5b452;
   border-radius: 10px;
+}
+
+.contact-col .btn {
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #a5b452;
+  background-color: beige;
+  outline: 0;
+  border: 1px solid #a5b452;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.contact-col .btn:hover {
+  background-color: #a5b452;
+  color: beige;
 }
 
 /* Footer */
