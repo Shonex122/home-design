@@ -358,8 +358,8 @@ nav .fa-bars {
 
 .QandA-col p {
   font-size: 16px;
-  line-height: 1;
-  font-weight: lighter;
+  /* font-weight: lighter; */
+  line-height: 1.7em;
 }
 
 /* Newsletter */
@@ -462,6 +462,19 @@ nav .fa-bars {
   margin-bottom: 5px;
 }
 
+.contact-col .btn {
+  display: inline-block;
+  /* width: 50%; */
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #a5b452;
+  background-color: beige;
+  outline: 0;
+  border: 1px solid #a5b452;
+  cursor: pointer;
+  font-size: 12px;
+}
+
 .contact-col input,
 .contact-col textarea {
   width: 100%;
@@ -483,10 +496,12 @@ footer {
   align-items: center;
   padding: 30px 0;
   text-align: center;
+  box-shadow: 0 5px 15px rgba(165, 162, 82, 0.5);
 }
 
 footer a {
   text-decoration: none;
+  color: #a5b452;
 }
 
 footer .social-icons i {
@@ -512,7 +527,7 @@ footer .social-icons .fa-brands {
     position: fixed;
     background-color: beige;
     width: 200px;
-    height: 99vh;
+    height: 100vh;
     top: 0;
     right: -200px;
     text-align: left;
@@ -535,5 +550,73 @@ footer .social-icons .fa-brands {
 
   .contact {
     display: none;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+  }
+
+  .gallery-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery-row > div {
+    width: 100%;
+  }
+  .QandA-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+
+  .QandA-row > div {
+    width: 100%;
+  }
+
+  .contact-us {
+    width: 100%;
+    /* margin: auto;
+    text-align: center;
+    padding-top: 50px; */
+  }
+
+  .newsletter .form {
+    width: 100%;
+  }
+
+  .main-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-course h1 {
+    font-size: 35px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer h4 {
+    margin-top: 10px;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 477px) {
+  .newsletter .form {
+    width: 100%;
+  }
+
+  .newsletter {
+    padding: 40px 20px;
   }
 }
